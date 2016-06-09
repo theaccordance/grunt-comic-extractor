@@ -3,10 +3,11 @@ var cbr = require('cbr');
 module.exports = function (grunt) {
 
 	function comicExtract() {
-		var files = this.filesSrc;
+		var files = this.filesSrc,
+			dest = this.data.dest;
 
 		files.forEach(function (file) {
-			var out = 'tmp/' + file.slice(0, -4);
+			var out = dest + file.slice(0, -4);
 			cbr(file, out, function(err, out) {
 				if (err) {
 					console.log('err');
