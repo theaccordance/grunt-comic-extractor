@@ -1,0 +1,24 @@
+{
+  "name": "grunt-comic-extract",
+  "version": "0.1.0",
+  "description": "extract comic files using grunt",
+  "main": "grunt/tasks/tasks.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "grunt",
+    "comic",
+    "cbr",
+    "cbz"
+  ],
+  "author": "Joe Mainwaring <jm@theaccordance.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cbr": "^1.0.3"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "load-grunt-tasks": "^3.5.0"
+  }
+}
