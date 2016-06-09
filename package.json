@@ -8,6 +8,7 @@
   },
   "keywords": [
     "grunt",
+	"gruntplugin",
     "comic",
     "cbr",
     "cbz"
