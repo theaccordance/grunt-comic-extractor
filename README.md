@@ -20,21 +20,21 @@ grunt.loadNpmTasks('grunt-comic-extract');
 ## The "comic" task
 
 ### Overview
-In your project's Gruntfile, add a section named `{%= comic %}` to the data object passed into `grunt.initConfig()`.
+In your project's Gruntfile, add a section named `comic` to the data object passed into `grunt.initConfig()`.
 
 ```js
 grunt.initConfig({
   comic: {
-    foo: {
-		src: ['bar.cbr', 'baz.cbz']
+    marvel: {
+		src: ['deadpool.cbr', 'cable.cbz']
 		dest: 'extracted/'
 	}
-  },
+  }
 });
 ```
 
 ## Contributing
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
-## Release History
-_(Nothing yet)_
+## License
+Licensed under [MIT](https://github.com/theaccordance/grunt-comic-extractor/blob/master/LICENSE) (C) 2016 Joe Mainwaring.
