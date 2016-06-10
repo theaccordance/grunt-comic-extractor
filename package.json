@@ -1,6 +1,6 @@
 {
   "name": "grunt-comic-extract",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "extract comic files using grunt",
   "main": "grunt/tasks/tasks.js",
   "scripts": {
